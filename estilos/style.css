@@ -13,7 +13,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 80vh;
     background-image: linear-gradient(to top, #601685, #527E7D);
 }
 
@@ -21,14 +21,16 @@ main {
     background-color: white;
     margin: auto;
     margin-top: 20vh;
-    width: 35vw;
-    height: 55vh;
+    width: 264px;
+    height: 500px;
     border-radius: 20px;
+
+    min-width: 200px;
 }
 
 div#imagem {
-    width: 35vw;
-    height: 25vh;
+    width: 264px;
+    height: 220px;
 
     background-image: url(../imagens/pexels-david-underland-3523621.jpg);
     background-size: cover;
@@ -37,7 +39,7 @@ div#imagem {
     border-radius: 20px 20px 0px 0px;
 }
 
-div#formulario > h1{
+div#formulario > h1 {
     text-align: center;
     padding: 10px;
 }
@@ -48,3 +50,4 @@ div#formulario > p {
     line-height: 20px;
     font-weight: 600;
 }
+
