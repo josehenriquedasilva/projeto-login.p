@@ -13,19 +13,19 @@
 }
 
 body {
-    height: 85vh;
+    height: 95vh;
     background-image: linear-gradient(to top, #601685, #527E7D);
 }
 
 main {
     background-color: white;
     margin: auto;
-    margin-top: 15vh;
+    margin-top: 10vh;
     width: 264px;
     height: 525px;
     border-radius: 20px;
 
-    min-width: 200px;
+    min-width: 150px;
 }
 
 div#imagem {
