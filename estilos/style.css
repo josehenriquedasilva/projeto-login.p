@@ -13,16 +13,16 @@
 }
 
 body {
-    height: 80vh;
+    height: 85vh;
     background-image: linear-gradient(to top, #601685, #527E7D);
 }
 
 main {
     background-color: white;
     margin: auto;
-    margin-top: 20vh;
+    margin-top: 15vh;
     width: 264px;
-    height: 500px;
+    height: 525px;
     border-radius: 20px;
 
     min-width: 200px;
@@ -45,10 +45,73 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
     font-size: 0.8em;
     line-height: 20px;
     font-weight: 600;
 }
 
- 
+form > p#email, p#senha {
+    margin: 5px 10px 5px 11px;
+    background-color: #601685;
+
+    width: 240px;
+    border-radius: 5px;
+}
+
+form > p > label > span {
+    position: relative;
+    top: 5px;
+    left: 3px;
+    color: white;
+}
+
+form > p#email > input {
+    height: 25px;
+    width: 207px;
+    position: relative;
+    bottom: 3px;
+    border: 1px solid #601685;
+    border-radius: 5px;
+}
+
+form > p#senha > input {
+    height: 25px;
+    width: 207px;
+    position: relative;
+    bottom: 3px;
+    border: 1px solid #601685;
+    border-radius: 5px;
+}
+
+form > p#botao-1 > input {
+    margin: 5px 10px 5px 11px;
+    width: 240px;
+    height: 30px;
+    border-radius: 5px;
+    border: #4AA29B 1px solid;
+    background-color: #4AA29B;
+    color: white;
+    cursor: pointer;
+}
+
+form > p#botao-1 > input:hover {
+    background-color: #2A645E;
+} 
+
+
+form > p#botao-2 > input {
+    margin: 5px 10px 5px 11px;
+    width: 240px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    color: #4AA29B;
+    border: 1px solid #4AA29B;
+    cursor: pointer;
+}
+
+form > p#botao-2 > input:hover {
+    background-color: #65CDC5;
+    color: white;
+}
