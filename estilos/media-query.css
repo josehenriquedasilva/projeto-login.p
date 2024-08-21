@@ -4,17 +4,17 @@
     /*tablet*/
 
     body {
-        height: 72vh;
+        height: 79vh;
     }
 
     main {
         width: 90vw;
-        height: 70vh;
-        
-        margin: 200px 60px 0px 35px;
+        height: 70vh;        
+        margin: auto;
+        margin-top: 200px;
 
         max-height: 267px;
-        min-height: 267px;
+        max-width: 690px;
     }
 
     div#imagem {
@@ -29,6 +29,46 @@
         position: absolute;
         top: 200px;
         margin-left: 255px;
-        
+        max-width: 465px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    /* grandes telas*/
+
+    main {
+        width: 80vw;
+        height: 283px;        
+        margin: auto;
+        margin-top: 200px;
+
+        max-width: 800px;
+    }
+
+    div#imagem {
+        display: block;
+        position: relative;
+        left: 385px;
+
+        width: 415px;
+        height: 283px;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    div#formulario {
+        width: 37vw;
+        position: relative;
+        bottom: 280px;
+
+        max-width: 380px;
+    }
+
+    form > p#email > input {
+        height: 25px;
+        width: 207px;
+        position: relative;
+        bottom: 3px;
+        border: 1px solid #601685;
+        border-radius: 5px;
     }
 }
