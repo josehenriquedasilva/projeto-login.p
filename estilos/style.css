@@ -10,11 +10,13 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 body {
     height: 100vh;
-    background-image: linear-gradient(to top, #601685, #527E7D);
+    width: 100vw;
+    background-color: #601685;
     
 }
 
@@ -30,6 +32,7 @@ main {
 }
 
 div#imagem {
+    display: block;
     width: 264px;
     height: 220px;
 
